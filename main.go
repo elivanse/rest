@@ -19,7 +19,7 @@ func main() {
 	r.HandleFunc("/articles/{category}/{id:[0-9]+}", ArticleHandler)
 	srv := &http.Server{
 		Handler:      r,
-		Addr:         "127.0.0.1:8000",
+		Addr:         "127.0.0.1:8081",
 		WriteTimeout: 15 * time.Second,
 		ReadTimeout:  15 * time.Second,
 	}

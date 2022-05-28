@@ -1,0 +1,5 @@
+http://localhost:8081
+Content-Type: application/json
+-S
+-i
+GET /articles/books/123
